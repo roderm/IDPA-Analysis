@@ -3,9 +3,9 @@ None_S = {[data_file_path '/None-S.txt'], "b", "Basis"};
 None_H = {[data_file_path '/None-H.txt'], "b", "Basis"};
 None_B = {[data_file_path '/None-B.txt'], "b", "Basis"};
 
-Pamir_S = {[data_file_path '/Pamir-S.txt'], "g", "Militär Pamir"};
-Pamir_H = {[data_file_path '/Pamir-H.txt'], "g", "Militär Pamir"};
-Pamir_B = {[data_file_path '/Pamir-B.txt'], "g", "Militär Pamir"};
+Pamir_S = {[data_file_path '/Pamir-S.txt'], "g", "Militaer Pamir"};
+Pamir_H = {[data_file_path '/Pamir-H.txt'], "g", "Militaer Pamir"};
+Pamir_B = {[data_file_path '/Pamir-B.txt'], "g", "Militaer Pamir"};
 
 Bose_S = {[data_file_path '/BoseOn-S.txt'], "m", "Bose Quiet Comfort"};
 Bose_H = {[data_file_path '/BoseOn-H.txt'], "m", "Bose Quiet Comfort"};
