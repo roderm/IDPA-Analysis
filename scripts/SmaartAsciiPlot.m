@@ -19,10 +19,12 @@ function figure=SmaartAsciiPlot(files, dbcorrection)
   
   hold on
   xscales=[16 220 1000 4000 10000 20000];
-  xlabels=["16Hz";"220hz";"1kHz"; "4kHz"; "10kHz";"20kHz"];
+  xlabels=["16Hz";"220Hz";"1kHz"; "4kHz"; "10kHz";"20kHz"];
   set(gca,'xtick',xscales);
   set(gca, 'xticklabel', xlabels);
 
+  ylabel("Laustärke [dB(A)]");
+  xlabel("Frequenz");
   h = legend(files{:,3});
   grid minor on
   
