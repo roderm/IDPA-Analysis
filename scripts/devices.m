@@ -35,9 +35,9 @@ SennheiserOff_S = {[data_file_path '/SennheiserOff-S.txt'], "r", "Sennheiser (Of
 SennheiserOff_H = {[data_file_path '/SennheiserOff-H.txt'], "r", "Sennheiser (Off)"};
 SennheiserOff_B = {[data_file_path '/SennheiserOff-B.txt'], "r", "Sennheiser (Off)"};
 
-SonyInEar_S = {[data_file_path '/SonyMdrOn-S.txt'], "c", "Sony MDR"};
-SonyInEar_H = {[data_file_path '/SonyMdrOn-H.txt'], "c", "Sony MDR"};
-SonyInEar_B = {[data_file_path '/SonyMdrOn-B.txt'], "c", "Sony MDR"};
+SonyInEar_S = {[data_file_path '/SonyInEarOn-S.txt'], "k", "Sony InEar"};
+SonyInEar_H = {[data_file_path '/SonyInEarOn-H.txt'], "k", "Sony InEar"};
+SonyInEar_B = {[data_file_path '/SonyInEarOn-B.txt'], "k", "Sony InEar"};
 
 SonyInEarOff_S = {[data_file_path '/SonyInEarOff-S.txt'], "r", "Sony InEar (Off)"};
 SonyInEarOff_H = {[data_file_path '/SonyInEarOff-H.txt'], "r", "Sony InEar (Off)"};
