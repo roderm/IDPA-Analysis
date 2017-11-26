@@ -1,7 +1,7 @@
 data_file_path=[pwd '/RS-data'];
-None_S = {[data_file_path '/None-S.txt'], "b", "Basis"};
-None_H = {[data_file_path '/None-H.txt'], "b", "Basis"};
-None_B = {[data_file_path '/None-B.txt'], "b", "Basis"};
+None_S = {[data_file_path '/None-S.txt'], "b", "Grundgeraeusch"};
+None_H = {[data_file_path '/None-H.txt'], "b", "Heli Geraeusch"};
+None_B = {[data_file_path '/None-B.txt'], "b", "Knall Geraeusch"};
 
 Pamir_S = {[data_file_path '/Pamir-S.txt'], "g", "Militaer Pamir"};
 Pamir_H = {[data_file_path '/Pamir-H.txt'], "g", "Militaer Pamir"};
@@ -15,9 +15,9 @@ BoseOff_S = {[data_file_path '/BoseOff-S.txt'], "k", "Bose Quiet Comfort (Off)"}
 BoseOff_H = {[data_file_path '/BoseOff-H.txt'], "k", "Bose Quiet Comfort (Off)"};
 BoseOff_B = {[data_file_path '/BoseOff-B.txt'], "k", "Bose Quiet Comfort (Off)"};
 
-SonyMdr_S = {[data_file_path '/SonyMdrOn-S.txt'], "c", "Sony MDR"};
-SonyMdr_H = {[data_file_path '/SonyMdrOn-H.txt'], "c", "Sony MDR"};
-SonyMdr_B = {[data_file_path '/SonyMdrOn-B.txt'], "c", "Sony MDR"};
+SonyMdr_S = {[data_file_path '/SonyMdrOn-S.txt'], "k", "Sony MDR"};
+SonyMdr_H = {[data_file_path '/SonyMdrOn-H.txt'], "k", "Sony MDR"};
+SonyMdr_B = {[data_file_path '/SonyMdrOn-B.txt'], "k", "Sony MDR"};
 
 SonyMdrOff_S = {[data_file_path '/SonyMdrOff-S.txt'], "r", "Sony MDR (Off)"};
 SonyMdrOff_H = {[data_file_path '/SonyMdrOff-H.txt'], "r", "Sony MDR (Off)"};
@@ -35,9 +35,9 @@ SennheiserOff_S = {[data_file_path '/SennheiserOff-S.txt'], "r", "Sennheiser (Of
 SennheiserOff_H = {[data_file_path '/SennheiserOff-H.txt'], "r", "Sennheiser (Off)"};
 SennheiserOff_B = {[data_file_path '/SennheiserOff-B.txt'], "r", "Sennheiser (Off)"};
 
-SonyInEar_S = {[data_file_path '/SonyInEarOn-S.txt'], "k", "Sony InEar"};
-SonyInEar_H = {[data_file_path '/SonyInEarOn-H.txt'], "k", "Sony InEar"};
-SonyInEar_B = {[data_file_path '/SonyInEarOn-B.txt'], "k", "Sony InEar"};
+SonyInEar_S = {[data_file_path '/SonyInEarOn-S.txt'], "r", "Sony InEar"};
+SonyInEar_H = {[data_file_path '/SonyInEarOn-H.txt'], "r", "Sony InEar"};
+SonyInEar_B = {[data_file_path '/SonyInEarOn-B.txt'], "r", "Sony InEar"};
 
 SonyInEarOff_S = {[data_file_path '/SonyInEarOff-S.txt'], "r", "Sony InEar (Off)"};
 SonyInEarOff_H = {[data_file_path '/SonyInEarOff-H.txt'], "r", "Sony InEar (Off)"};
