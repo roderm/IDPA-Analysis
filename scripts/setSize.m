@@ -2,6 +2,8 @@ function setSize(hf)
   %# centimeters units
   X = 30;                  %# A4 paper size
   Y = 20;                  %# A4 paper size
+  X = 21;
+  Y = 14;
   xMargin = 1;               %# left/right margins from page borders
   yMargin = 1;               %# bottom/top margins from page borders
   xSize = X - 2*xMargin;     %# figure size on paper (widht & hieght)
