@@ -20,13 +20,21 @@ function figure=SmaartAsciiPlot(files, dbcorrection)
   hold on
   xscales=[16 220 1000 4000 10000 20000];
   xlabels=["16Hz";"220Hz";"1kHz"; "4kHz"; "10kHz";"20kHz"];
+  yscales=[0 10 20 30 40 50 60 70 80 90 100];
+  
   set(gca,'xtick',xscales);
   set(gca, 'xticklabel', xlabels);
-
-  ylabel("Laustärke [dB(A)]");
+  set(gca,'ytick',yscales);
+  
+  ylabel("Schallpegel [dBa]");
   xlabel("Frequenz");
-  h = legend(files{:,3});
+  xlim([16, 20000]);
   grid minor on
+  [h, txto] = legend(files{:,3});
+  legend (h, "location", "northeastoutside");
+  set(h,'color',[0.99 0.99 0.99]);
+  set (h, "fontsize", 11);
+  legend boxoff;
   
   hold off
 endfunction
@@ -34,7 +42,7 @@ endfunction
 function saveDiagramm(hf, hname)
   set (hf, "visible", "off");
   setSize(hf);
-  saveas (hf, [pwd '/' hname '.png'], "png");
+  print (hf, [pwd '/' hname '.png'], "-dpng");
 endfunction
 
 function retval = addDb (col, db)
