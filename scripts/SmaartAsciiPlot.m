@@ -1,5 +1,5 @@
 # example:
-# files = [{['./None-H.txt'], "b", "Heli Geraeusch"},{['./SonyMdrOn-H.txt'], "k", "Sony MDR"}];
+# files = [{['./None-H.txt'], "b", "Testgerausch"},{['./SonyMdrOn-H.txt'], "k", "Sony MDR"}];
 # dbcorrection = 123;
 # SmaartAsciiPlot(files, dbcorrection);
 
