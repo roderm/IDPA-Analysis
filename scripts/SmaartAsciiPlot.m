@@ -1,8 +1,7 @@
 # example:
-# files = ['./None-H.txt'; './Pamir-H.txt'; './BoseOn-H.txt'];
-# colors = ['b'; 'k'; 'g'];
+# files = [{['./None-H.txt'], "b", "Testgerausch"},{['./SonyMdrOn-H.txt'], "k", "Sony MDR"}];
 # dbcorrection = 123;
-# SmaartAsciiPlot(files, colors, dbcorrection);
+# SmaartAsciiPlot(files, dbcorrection);
 
 function figure=SmaartAsciiPlot(files, dbcorrection)
   figure = figure()
