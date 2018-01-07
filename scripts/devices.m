@@ -1,6 +1,6 @@
 data_file_path=[pwd '/RS-data'];
 None_S = {[data_file_path '/None-S.txt'], "b", "Grundgeraeusch"};
-None_H = {[data_file_path '/None-H.txt'], "b", "Heli Geraeusch"};
+None_H = {[data_file_path '/None-H.txt'], "b", "Test-Geraeusch"};
 None_B = {[data_file_path '/None-B.txt'], "b", "Knall Geraeusch"};
 
 Pamir_S = {[data_file_path '/Pamir-S.txt'], "g", "Militaer Pamir"};
@@ -19,9 +19,9 @@ SonyMdr_S = {[data_file_path '/SonyMdrOn-S.txt'], "k", "Sony MDR"};
 SonyMdr_H = {[data_file_path '/SonyMdrOn-H.txt'], "k", "Sony MDR"};
 SonyMdr_B = {[data_file_path '/SonyMdrOn-B.txt'], "k", "Sony MDR"};
 
-SonyMdrOff_S = {[data_file_path '/SonyMdrOff-S.txt'], "r", "Sony MDR (Off)"};
-SonyMdrOff_H = {[data_file_path '/SonyMdrOff-H.txt'], "r", "Sony MDR (Off)"};
-SonyMdrOff_B = {[data_file_path '/SonyMdrOff-B.txt'], "r", "Sony MDR (Off)"};
+SonyMdrOff_S = {[data_file_path '/SonyMdrOff-S.txt'], "k", "Sony MDR (Off)"};
+SonyMdrOff_H = {[data_file_path '/SonyMdrOff-H.txt'], "k", "Sony MDR (Off)"};
+SonyMdrOff_B = {[data_file_path '/SonyMdrOff-B.txt'], "k", "Sony MDR (Off)"};
 
 Janick_S = {[data_file_path '/Janick-S.txt'], "r", "Eigen"};
 Janick_H = {[data_file_path '/Janick-H.txt'], "r", "Eigen"};

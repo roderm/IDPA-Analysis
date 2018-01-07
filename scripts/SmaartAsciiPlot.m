@@ -26,7 +26,7 @@ function figure=SmaartAsciiPlot(files, dbcorrection)
   set(gca, 'xticklabel', xlabels);
   set(gca,'ytick',yscales);
   
-  ylabel("Schallpegel [dBa]");
+  ylabel("Schallpegel [dBc]");
   xlabel("Frequenz");
   xlim([16, 20000]);
   grid minor on
